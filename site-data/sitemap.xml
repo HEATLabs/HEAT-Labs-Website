@@ -560,6 +560,12 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
+		<loc>https://heatlabs.net/guides/general-guides/shell-crit-cone-mechanic</loc>
+		<lastmod>2026-02-24</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
 		<loc>https://heatlabs.net/guides/map-guides</loc>
 		<lastmod>2026-02-24</lastmod>
 		<changefreq>weekly</changefreq>
