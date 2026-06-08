@@ -1651,4 +1651,10 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.4</priority>
 	</url>
+	<url>
+		<loc>https://heatlabs.net/guides/tank-guides/alvt-players-guide</loc>
+		<lastmod>2026-06-08</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.4</priority>
+	</url>
 </urlset>
