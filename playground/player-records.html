@@ -379,7 +379,348 @@
       </section>
       <!-- Main Content -->
       <section id="main" class="section">
-      <!-- PLACEHOLDER -->
+        <div class="container mx-auto px-4">
+          <!-- Loading Progress -->
+          <div id="loadingProgress" class="loading-progress" style="display: none;">
+            <div class="loading-progress-bar-container">
+              <div class="loading-progress-bar" id="loadingProgressBar" style="width: 0%;"></div>
+            </div>
+            <div class="loading-progress-text">
+              <span id="loadingProgressLabel">Loading record data...</span>
+              <span id="loadingProgressPercent">0%</span>
+            </div>
+            <p class="loading-progress-hint">Please wait until all data is loaded</p>
+          </div>
+          <!-- Tabs Navigation -->
+          <div class="stats-tabs-container">
+            <button class="stats-tab active" data-tab="global" id="tabGlobal">
+              <i class="fas fa-globe"></i> Global Records
+            </button>
+            <button class="stats-tab" data-tab="conquest" id="tabConquest">
+              <i class="fas fa-flag"></i> Conquest
+            </button>
+            <button class="stats-tab" data-tab="control" id="tabControl">
+              <i class="fas fa-bullseye"></i> Control
+            </button>
+            <button class="stats-tab" data-tab="hardpoint" id="tabHardpoint">
+              <i class="fas fa-shield-halved"></i> Hardpoint
+            </button>
+            <button class="stats-tab" data-tab="kill-confirmed" id="tabKillConfirmed">
+              <i class="fas fa-skull"></i> Kill Confirmed
+            </button>
+          </div>
+          <!-- Tab Content: Global Records -->
+          <div id="tabContentGlobal" class="tab-content active">
+            <!-- Global Stats Overview -->
+            <div id="globalStats" class="global-stats-section">
+              <div class="global-stats-header">
+                <h2>Global Records Overview</h2>
+                <span class="global-stats-subtitle">Top achievements across all game modes</span>
+                <!-- Guidelines Button moved below subtitle -->
+                <div style="display: flex; justify-content: center; margin-top: 0.75rem;">
+                  <button id="openGuidelinesBtn" class="view-full-btn" style="background: #6c5ce7;">
+                    <i class="fas fa-book"></i> Submission Guidelines
+                  </button>
+                </div>
+              </div>
+              <div class="global-stats-grid">
+                <div class="global-stat-card">
+                  <div class="global-stat-icon"><i class="fas fa-trophy"></i></div>
+                  <div class="global-stat-value" id="globalTotalRecords">0</div>
+                  <div class="global-stat-label">Total Records</div>
+                </div>
+                <div class="global-stat-card">
+                  <div class="global-stat-icon"><i class="fas fa-users"></i></div>
+                  <div class="global-stat-value" id="globalRecordHolders">0</div>
+                  <div class="global-stat-label">Record Holders</div>
+                </div>
+                <div class="global-stat-card">
+                  <div class="global-stat-icon"><i class="fas fa-gamepad"></i></div>
+                  <div class="global-stat-value" id="globalModesCount">0</div>
+                  <div class="global-stat-label">Game Modes</div>
+                </div>
+                <div class="global-stat-card">
+                  <div class="global-stat-icon"><i class="fas fa-chart-line"></i></div>
+                  <div class="global-stat-value" id="globalTopDamage">0</div>
+                  <div class="global-stat-label">Highest Damage</div>
+                </div>
+              </div>
+            </div>
+            <!-- Global Charts -->
+            <div id="globalCharts" class="global-charts-section">
+              <div class="global-charts-header">
+                <h3>Record Statistics</h3>
+              </div>
+              <div class="charts-grid">
+                <div class="chart-container">
+                  <h4>Records by Mode</h4>
+                  <canvas id="globalRecordsByModeChart"></canvas>
+                </div>
+                <div class="chart-container">
+                  <h4>Top Damage Records</h4>
+                  <canvas id="globalTopDamageChart"></canvas>
+                </div>
+                <div class="chart-container">
+                  <h4>Records by Stat Category</h4>
+                  <canvas id="globalRecordsByCategoryChart"></canvas>
+                </div>
+                <div class="chart-container">
+                  <h4>Player Records Distribution</h4>
+                  <canvas id="globalPlayerRecordsChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <!-- Global Records Tables -->
+            <div class="global-records-tables">
+              <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--text-primary);">Top Records by Category</h3>
+              <!-- Damage Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-bolt" style="color: var(--accent-color);"></i> Highest Damage</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalDamageTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Damage</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalDamageTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- Kills Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-skull" style="color: #e74c3c;"></i> Most Kills</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalKillsTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Kills</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalKillsTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- Assists Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-handshake" style="color: #3498db;"></i> Most Assists</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalAssistsTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Assists</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalAssistsTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- XP Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-star" style="color: #f1c40f;"></i> Highest XP</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalXPTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>XP</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalXPTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- Captures Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-flag-checkered" style="color: #2ecc71;"></i> Most Captures</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalCapturesTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Captures</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalCapturesTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- Damage Blocked Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-shield" style="color: #9b59b6;"></i> Most Damage Blocked</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalBlockedTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Damage Blocked</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalBlockedTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- Credits Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-coins" style="color: #f39c12;"></i> Most Credits</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalCreditsTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Credits</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalCreditsTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- Intel Records -->
+              <div class="record-category-section">
+                <h4><i class="fas fa-microchip" style="color: #1abc9c;"></i> Most Intel</h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalIntelTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Intel</th>
+                        <th>Mode</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalIntelTableBody">
+                      <tr><td colspan="8" class="no-data">Loading...</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tab Content: Conquest -->
+          <div id="tabContentConquest" class="tab-content">
+            <div class="mode-stats-header">
+              <h2><i class="fas fa-flag"></i> Conquest Records</h2>
+              <p class="mode-stats-subtitle">Top performances in Conquest mode</p>
+              <!-- Guidelines Button below subtitle -->
+              <div style="display: flex; justify-content: center; margin-top: 0.75rem;">
+                <button id="openGuidelinesBtn2" class="view-full-btn" style="background: #6c5ce7;">
+                  <i class="fas fa-book"></i> Submission Guidelines
+                </button>
+              </div>
+            </div>
+            <div id="conquestContent"></div>
+          </div>
+          <!-- Tab Content: Control -->
+          <div id="tabContentControl" class="tab-content">
+            <div class="mode-stats-header">
+              <h2><i class="fas fa-bullseye"></i> Control Records</h2>
+              <p class="mode-stats-subtitle">Top performances in Control mode</p>
+              <!-- Guidelines Button below subtitle -->
+              <div style="display: flex; justify-content: center; margin-top: 0.75rem;">
+                <button id="openGuidelinesBtn3" class="view-full-btn" style="background: #6c5ce7;">
+                  <i class="fas fa-book"></i> Submission Guidelines
+                </button>
+              </div>
+            </div>
+            <div id="controlContent"></div>
+          </div>
+          <!-- Tab Content: Hardpoint -->
+          <div id="tabContentHardpoint" class="tab-content">
+            <div class="mode-stats-header">
+              <h2><i class="fas fa-shield-halved"></i> Hardpoint Records</h2>
+              <p class="mode-stats-subtitle">Top performances in Hardpoint mode</p>
+              <!-- Guidelines Button below subtitle -->
+              <div style="display: flex; justify-content: center; margin-top: 0.75rem;">
+                <button id="openGuidelinesBtn4" class="view-full-btn" style="background: #6c5ce7;">
+                  <i class="fas fa-book"></i> Submission Guidelines
+                </button>
+              </div>
+            </div>
+            <div id="hardpointContent"></div>
+          </div>
+          <!-- Tab Content: Kill Confirmed -->
+          <div id="tabContentKillConfirmed" class="tab-content">
+            <div class="mode-stats-header">
+              <h2><i class="fas fa-skull"></i> Kill Confirmed Records</h2>
+              <p class="mode-stats-subtitle">Top performances in Kill Confirmed mode</p>
+              <!-- Guidelines Button below subtitle -->
+              <div style="display: flex; justify-content: center; margin-top: 0.75rem;">
+                <button id="openGuidelinesBtn5" class="view-full-btn" style="background: #6c5ce7;">
+                  <i class="fas fa-book"></i> Submission Guidelines
+                </button>
+              </div>
+            </div>
+            <div id="killConfirmedContent"></div>
+          </div>
+          <!-- Loading State -->
+          <div id="loadingState" class="loading-state" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading record data...</p>
+          </div>
+        </div>
       </section>
       <!-- CTA Section -->
       <section class="cta-section">
