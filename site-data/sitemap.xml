@@ -860,6 +860,12 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
+		<loc>https://heatlabs.net/maps/eden</loc>
+		<lastmod>2026-06-19</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
 		<loc>https://heatlabs.net/news/agent-spotlight-akira</loc>
 		<lastmod>2026-02-24</lastmod>
 		<changefreq>weekly</changefreq>
@@ -1504,6 +1510,12 @@
 	<url>
 		<loc>https://heatlabs.net/tanks/leopard-2k14</loc>
 		<lastmod>2026-02-24</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://heatlabs.net/tanks/leopard-2k-st</loc>
+		<lastmod>2026-06-19</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
