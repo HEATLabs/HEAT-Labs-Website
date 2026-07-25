@@ -383,20 +383,8 @@
             </div>
             <div class="filter-group">
               <span class="filter-label">Filter by:</span>
-              <select id="typeFilter" class="filter-select">
-                <option value="all">All Types</option>
-                <option value="steam-news">Steam News</option>
-                <option value="discord-news">Discord News</option>
-                <option value="discord-announcement">Discord Announcements</option>
-              </select>
-            </div>
-            <div class="filter-group">
-              <span class="filter-label">Patch:</span>
-              <select id="patchFilter" class="filter-select">
-                <option value="all">All Patches</option>
-                <option value="alpha-1">Alpha Playtest #1</option>
-                <option value="alpha-2">Alpha Playtest #2</option>
-                <option value="closed-beta">Closed Beta Test</option>
+              <select id="categoryFilter" class="filter-select">
+                <!-- Categories will be dynamically populated -->
               </select>
             </div>
             <div class="filter-group">
@@ -410,26 +398,7 @@
             </div>
           </div>
           <div class="news-grid text-center">
-            <div class="news-card" data-date="PLACEHOLDER" data-type="PLACEHOLDER" data-patch="PLACEHOLDER">
-              <div class="news-img-container">
-                <div class="news-views-counter">
-                  <i class="fas fa-eye"></i>
-                  <span class="views-count">0</span>
-                </div>
-                <img alt="PLACEHOLDER" class="news-img" src="https://cdn12.heatlabs.net/news-announcement/PLACEHOLDER.webp" />
-                <div class="news-tag">PLACEHOLDER</div>
-              </div>
-              <div class="news-info">
-                <h3>PLACEHOLDER</h3>
-                <div class="news-meta">
-                  <span>
-                    <i class="fa-solid fa-calendar"></i> PLACEHOLDER </span>
-                </div>
-                <p class="news-desc">PLACEHOLDER</p>
-                <a class="btn-accent btn-news" href="PLACEHOLDER">
-                  <i class="fas fa-newspaper mr-2"></i>Read More </a>
-              </div>
-            </div>
+            <!-- News cards will be dynamically generated -->
           </div>
         </div>
         <!-- Pagination -->
