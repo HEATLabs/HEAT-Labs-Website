@@ -602,12 +602,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/playground/countdown</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/playground/game-servers</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
@@ -830,12 +824,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/tanks/t-55-enigma</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/tanks/t-62av</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
@@ -873,12 +861,6 @@
 	</url>
 	<url>
 		<loc>https://heatlabs.net/tanks/xm1-v</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/tanks/xm808-twister</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
