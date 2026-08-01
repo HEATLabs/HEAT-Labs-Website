@@ -3,50 +3,6 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
-		<loc>https://heatlabs.net/steam-news/closed-beta-starts-april-16</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2026-04-09T00:00:00+02:00</news:publication_date>
-			<news:title>The HEAT Closed Beta Starts April 16</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/steam-news/points-of-contact</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2026-03-26T00:00:00+02:00</news:publication_date>
-			<news:title>Points of Contact</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/steam-news/announcing-the-heat-creators-contest</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2026-03-13T00:00:00+02:00</news:publication_date>
-			<news:title>Announcing the HEAT Creators Contest</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/steam-news/human-machine-synergy</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2026-03-05T00:00:00+02:00</news:publication_date>
-			<news:title>Human-Machine Synergy</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/are-we-approaching-the-launch</loc>
 		<news:news>
 			<news:publication>
@@ -88,17 +44,6 @@
 			</news:publication>
 			<news:publication_date>2026-01-30T00:00:00+02:00</news:publication_date>
 			<news:title>Easter Egg Friday #13</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/steam-news/the-source-of-heat</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2026-01-29T00:00:00+02:00</news:publication_date>
-			<news:title>The Source of HEAT</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -154,17 +99,6 @@
 			</news:publication>
 			<news:publication_date>2026-01-10T00:00:00+02:00</news:publication_date>
 			<news:title>Easter Egg Friday #10</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/steam-news/heat-wrapped-2025-in-review</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-12-19T00:00:00+02:00</news:publication_date>
-			<news:title>HEAT Wrapped: 2025 in Review</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -344,17 +278,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/steam-news/fair-play-and-clear-value</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-09-10T00:00:00+02:00</news:publication_date>
-			<news:title>Turning Up the HEAT: Fair Play, Clear Value</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/from-pcwstats-to-heat-labs</loc>
 		<news:news>
 			<news:publication>
@@ -377,39 +300,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/steam-news/announcing-world-of-tanks-heat</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-19T00:00:00+02:00</news:publication_date>
-			<news:title>Announcing World of Tanks: HEAT</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/steam-news/join-the-lodestar-program</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-19T00:00:00+02:00</news:publication_date>
-			<news:title>Join the Lodestar Program</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/project-cw-debrief-3</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-06-30T00:00:00+02:00</news:publication_date>
-			<news:title>World of Tanks: HEAT Debrief #3</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/website-plans-and-mission</loc>
 		<news:news>
 			<news:publication>
@@ -429,28 +319,6 @@
 			</news:publication>
 			<news:publication_date>2025-06-12T00:00:00+02:00</news:publication_date>
 			<news:title>Meet The Team: Shockwave</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/project-cw-debrief-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-05-30T00:00:00+02:00</news:publication_date>
-			<news:title>World of Tanks: HEAT Debrief #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/project-cw-gamescom-2025</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-05-23T00:00:00+02:00</news:publication_date>
-			<news:title>World of Tanks: HEAT at Gamescom 2025</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -484,17 +352,6 @@
 			</news:publication>
 			<news:publication_date>2025-05-19T00:00:00+02:00</news:publication_date>
 			<news:title>Meet The Team: _VEN0M</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/project-cw-debrief-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-05-16T00:00:00+02:00</news:publication_date>
-			<news:title>World of Tanks: HEAT Debrief #1</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -553,28 +410,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-9-balancing-tweaks</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-27T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #9 Balancing Tweaks (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-8-balancing-changes</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-26T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #8 Balancing Changes (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/alpha-2-fuel-crit-multiplier</loc>
 		<news:news>
 			<news:publication>
@@ -586,72 +421,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-7-bradley-is-here</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-20T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #7 M3A1 Bradley is Here (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-6-important-changes</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-17T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #6 Important Changes (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-valentines-day</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-14T00:00:00+02:00</news:publication_date>
-			<news:title>Valentine's Day (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-5-small-improvements</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-13T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #5 Small Improvements (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-4-balance-improvements</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-12T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #4 Balance Improvements (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-3-hounds-become-the-hunted</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-11T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #3 Hounds Become the Hunted (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/announcements/alpha-2-tournament</loc>
 		<news:news>
 			<news:publication>
@@ -660,270 +429,6 @@
 			</news:publication>
 			<news:publication_date>2025-02-10T00:00:00+02:00</news:publication_date>
 			<news:title>Alpha 2 Tournament</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-2-client-server-update</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-08T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #2 Client Server Update (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-patch-1-first-patch</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-07T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #1 The First Patch (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-1-day-to-go</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-05T00:00:00+02:00</news:publication_date>
-			<news:title>1 Day to Go (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/friendship-dam-concept-art-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-05-15T00:00:00+02:00</news:publication_date>
-			<news:title>Friendship Dam Concept Art #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/map-monday-5</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-05-13T00:00:00+02:00</news:publication_date>
-			<news:title>Map Monday #5</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/nord-oko-concept-art-3</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-05-09T00:00:00+02:00</news:publication_date>
-			<news:title>Nord Oko Concept Art #3</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/map-monday-4</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-05-06T00:00:00+02:00</news:publication_date>
-			<news:title>Map Monday #4</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/blossom-crash-concept-art-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-05-02T00:00:00+02:00</news:publication_date>
-			<news:title>Blossom Crash Concept Art #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/map-monday-3</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-04-29T00:00:00+02:00</news:publication_date>
-			<news:title>Map Monday #3</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/who-are-they-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-04-24T00:00:00+02:00</news:publication_date>
-			<news:title>Who Are They #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/map-monday-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-04-22T00:00:00+02:00</news:publication_date>
-			<news:title>Map Monday #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/medals-explained</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-04-17T00:00:00+02:00</news:publication_date>
-			<news:title>Medals Explained</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/map-monday-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-04-15T00:00:00+02:00</news:publication_date>
-			<news:title>Map Monday #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/community-managers-reintroduction</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-04-03T00:00:00+02:00</news:publication_date>
-			<news:title>Community Managers Reintroduction</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/who-are-they-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-03-25T00:00:00+02:00</news:publication_date>
-			<news:title>Who Are They #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/dev-questions-answers-narrative</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-03-22T00:00:00+02:00</news:publication_date>
-			<news:title>Narrative Design Developer Q&amp;A</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/jager-wall-bug</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-03-13T00:00:00+02:00</news:publication_date>
-			<news:title>Jäger's Wall Bug</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/hitbox-monday-5</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-03-11T00:00:00+02:00</news:publication_date>
-			<news:title>Hit-box Monday #5</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/dev-questions-answers-design</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-03-08T00:00:00+02:00</news:publication_date>
-			<news:title>Design Developer Q&amp;A</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/concept-art-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-03-06T00:00:00+02:00</news:publication_date>
-			<news:title>Concept Art #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/hitbox-monday-4</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-03-04T00:00:00+02:00</news:publication_date>
-			<news:title>Hit-box Monday #4</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/desktop-mobile-backgrounds</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-28T00:00:00+02:00</news:publication_date>
-			<news:title>Desktop &amp; Mobile Backgrounds</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/hitbox-monday-3</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-26T00:00:00+02:00</news:publication_date>
-			<news:title>Hit-box Monday #3</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-facts-figures</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-23T00:00:00+02:00</news:publication_date>
-			<news:title>Alpha 1 Facts &amp; Figures</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -968,17 +473,6 @@
 			</news:publication>
 			<news:publication_date>2024-02-20T00:00:00+02:00</news:publication_date>
 			<news:title>Potential Campaign Mode</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/hitbox-monday-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-19T00:00:00+02:00</news:publication_date>
-			<news:title>Hit-box Monday #2</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -1037,17 +531,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/news/alpha-1-valentines-day</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-14T00:00:00+02:00</news:publication_date>
-			<news:title>Valentine's Day (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/discovery-of-corex</loc>
 		<news:news>
 			<news:publication>
@@ -1056,28 +539,6 @@
 			</news:publication>
 			<news:publication_date>2024-02-14T00:00:00+02:00</news:publication_date>
 			<news:title>Discovery of CoreX in World of Tanks: HEAT</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/concept-art-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-13T00:00:00+02:00</news:publication_date>
-			<news:title>Concept Art #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/hitbox-monday-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-13T00:00:00+02:00</news:publication_date>
-			<news:title>Hit-box Monday #1</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -1125,17 +586,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/news/content-creator-impressions</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-02-09T00:00:00+02:00</news:publication_date>
-			<news:title>Content Creator Impressions</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/who-is-pcw-bug-hunters</loc>
 		<news:news>
 			<news:publication>
@@ -1144,138 +594,6 @@
 			</news:publication>
 			<news:publication_date>2024-02-01T00:00:00+02:00</news:publication_date>
 			<news:title>Who is PCW Bug Hunters?</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-11-post-tournament-qol-improvements</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-29T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #11 Post Tournament QoL Improvements (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-10-tournament-preparation-improvements</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-26T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #10 Tournament Preparation &amp; Improvements (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-9-hstvl-updates</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-25T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #9 HSTV-L Updates (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-8-delayed</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-24T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #8 Delayed (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/nord-oko-concept-art-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-24T00:00:00+02:00</news:publication_date>
-			<news:title>Nord Oko Concept Art #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-8-akira-updates</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-23T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #8 Akira Updates (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-6-ray-updates</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-22T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #6 Ray Updates (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-7-raketa-updates</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-22T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #7 Raketa Updates (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/quest-progress</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-21T00:00:00+02:00</news:publication_date>
-			<news:title>Update on Quest Progress</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-5-fantome-updates</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-20T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #5 Fantôme Updates (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-3-quick-match-updates</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-19T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #3 Quick Match Updates (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-patch-4-quality-of-life</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-19T00:00:00+02:00</news:publication_date>
-			<news:title>Patch #4 Quality of Life (Alpha 1)</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -1290,94 +608,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/news/alpha-1-1-day-to-go</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-17T00:00:00+02:00</news:publication_date>
-			<news:title>1 Day to Go (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-2-days-to-go</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-14T00:00:00+02:00</news:publication_date>
-			<news:title>2 Days to Go (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-1-3-days-to-go</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-14T00:00:00+02:00</news:publication_date>
-			<news:title>3 Days to Go (Alpha 1)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-2-days-to-go</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-14T00:00:00+02:00</news:publication_date>
-			<news:title>2 Days to Go (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/alpha-2-3-days-to-go</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-14T00:00:00+02:00</news:publication_date>
-			<news:title>3 Days to Go (Alpha 2)</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/agent-spotlight-fantome</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-13T00:00:00+02:00</news:publication_date>
-			<news:title>Fantome Agent Spotlight</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/update-recap</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-12T00:00:00+02:00</news:publication_date>
-			<news:title>Update Recap</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/agent-spotlight-akira</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-11T00:00:00+02:00</news:publication_date>
-			<news:title>Akira Agent Spotlight</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/announcements/winter-wargames-tournament-1</loc>
 		<news:news>
 			<news:publication>
@@ -1386,39 +616,6 @@
 			</news:publication>
 			<news:publication_date>2024-01-10T00:00:00+02:00</news:publication_date>
 			<news:title>Winter Wargames Tournament #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/friendship-dam-sneak-peek-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-05T00:00:00+02:00</news:publication_date>
-			<news:title>Friendship Dam Sneak Peek #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/friendship-dam-sneak-peek-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-05T00:00:00+02:00</news:publication_date>
-			<news:title>Friendship Dam Sneak Peek #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/agent-spotlight-kent</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-03T00:00:00+02:00</news:publication_date>
-			<news:title>Kent Agent Spotlight</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -1433,61 +630,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/news/beirut-concept-art</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-12-14T00:00:00+02:00</news:publication_date>
-			<news:title>Beirut Concept Art</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/plant-defuse-mode</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-11-29T00:00:00+02:00</news:publication_date>
-			<news:title>Plant/Defuse Game Mode</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/blossom-crash-concept-art-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-11-27T00:00:00+02:00</news:publication_date>
-			<news:title>Blossom Crash Concept Art #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/happy-tanksgiving</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-11-23T00:00:00+02:00</news:publication_date>
-			<news:title>Happy Tanksgiving</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/nord-oko-concept-art-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-11-21T00:00:00+02:00</news:publication_date>
-			<news:title>Nord Oko Concept Art #1</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/announcements/jamess-introduction</loc>
 		<news:news>
 			<news:publication>
@@ -1496,72 +638,6 @@
 			</news:publication>
 			<news:publication_date>2023-10-02T00:00:00+02:00</news:publication_date>
 			<news:title>New Community Manager #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/new-agents-3</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-09-20T00:00:00+02:00</news:publication_date>
-			<news:title>New Agents #3</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/balanced-and-reworked-maps</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-09-18T00:00:00+02:00</news:publication_date>
-			<news:title>Balanced and Reworked Maps</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/new-agents-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-09-15T00:00:00+02:00</news:publication_date>
-			<news:title>New Agents #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/progression-and-social-changes</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-09-13T00:00:00+02:00</news:publication_date>
-			<news:title>Progression and Social Changes</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/new-agents-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-09-08T00:00:00+02:00</news:publication_date>
-			<news:title>New Agents #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/news/gun-dispersion-changes</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-09-06T00:00:00+02:00</news:publication_date>
-			<news:title>Gun Dispersion Changes</news:title>
 		</news:news>
 	</url>
 	<url>
