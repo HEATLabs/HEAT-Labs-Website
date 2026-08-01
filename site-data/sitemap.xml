@@ -98,12 +98,6 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/video-showcase</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/agents/anansi</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
@@ -177,6 +171,12 @@
 	</url>
 	<url>
 		<loc>https://heatlabs.net/agents/udarnik</loc>
+		<lastmod>2026-07-11</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://heatlabs.net/agents/gambit</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
@@ -476,24 +476,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/guides/general-guides</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/guides/map-guides</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/guides/tank-guides</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/legal/code-of-conduct</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
@@ -536,31 +518,19 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/maps/afghanistan-2</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/afghanistan</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/maps/aircraft-carrier</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/maps/avalanche</loc>
+		<loc>https://heatlabs.net/maps/baikonur</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/maps/baikonur</loc>
+		<loc>https://heatlabs.net/maps/railgun</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
@@ -578,115 +548,7 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/maps/citadel</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/classified</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/comms</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/critical-harbor</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/crossroads</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/deadly-fields</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/desert-city</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/deserted</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/dolcegusta</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/duga</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/maps/eden</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/evergreen</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/fatal-acres</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/harvest</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/height-911rs</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/height-911tb</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/hydro</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/inferno</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/kerak</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
@@ -716,25 +578,7 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/maps/port</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/maps/project-phoenix</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/red-alert</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/ring-of-fury</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
@@ -746,37 +590,7 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/maps/spillway</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/sundered-city</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/maps/sunstroke</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/surveillance</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/tajbeg</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/zenith</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
@@ -1052,12 +866,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/tanks/t-72b</loc>
-		<lastmod>2026-07-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/tanks/t-72sh</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
@@ -1100,25 +908,25 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/guides/general-guides/shell-crit-cone-mechanic</loc>
+		<loc>https://heatlabs.net/guides/shell-crit-cone-mechanic</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.4</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/guides/tank-guides/alvt-players-guide</loc>
+		<loc>https://heatlabs.net/guides/alvt-players-guide</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.4</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/guides/tank-guides/bat-4m-basic-guide</loc>
+		<loc>https://heatlabs.net/guides/bat-4m-basic-guide</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.4</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/guides/tank-guides/xm1-v-build-guide</loc>
+		<loc>https://heatlabs.net/guides/xm1-v-build-guide</loc>
 		<lastmod>2026-07-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.4</priority>

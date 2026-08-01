@@ -289,17 +289,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/announcements/game-name-released</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-19T00:00:00+02:00</news:publication_date>
-			<news:title>Say hello to World of Tanks: HEAT</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/website-plans-and-mission</loc>
 		<news:news>
 			<news:publication>
@@ -366,50 +355,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/announcements/alpha-2-facts-figures</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-03-18T00:00:00+02:00</news:publication_date>
-			<news:title>Alpha 2 Facts &amp; Figures</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/alpha-2-has-ended</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-03-03T00:00:00+02:00</news:publication_date>
-			<news:title>Alpha 2 Has Ended</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/last-day-of-alpha-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-03-02T00:00:00+02:00</news:publication_date>
-			<news:title>Last Day of Alpha 2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/alpha-2-livestream</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-27T00:00:00+02:00</news:publication_date>
-			<news:title>Alpha 2 Live Stream</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/blog/alpha-2-fuel-crit-multiplier</loc>
 		<news:news>
 			<news:publication>
@@ -418,17 +363,6 @@
 			</news:publication>
 			<news:publication_date>2025-02-25T00:00:00+02:00</news:publication_date>
 			<news:title>Alpha 2 Fuel Crit Multiplier Incident</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/alpha-2-tournament</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2025-02-10T00:00:00+02:00</news:publication_date>
-			<news:title>Alpha 2 Tournament</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -594,61 +528,6 @@
 			</news:publication>
 			<news:publication_date>2024-02-01T00:00:00+02:00</news:publication_date>
 			<news:title>Who is PCW Bug Hunters?</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/alpha-1-announcement-2</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-17T00:00:00+02:00</news:publication_date>
-			<news:title>Alpha 1 Announcement #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/winter-wargames-tournament-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2024-01-10T00:00:00+02:00</news:publication_date>
-			<news:title>Winter Wargames Tournament #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/alpha-1-announcement-1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-12-19T00:00:00+02:00</news:publication_date>
-			<news:title>Alpha 1 Announcement #1</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/jamess-introduction</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-10-02T00:00:00+02:00</news:publication_date>
-			<news:title>New Community Manager #2</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/announcements/voreksis-introduction</loc>
-		<news:news>
-			<news:publication>
-				<news:name>HEAT Labs</news:name>
-				<news:language>en</news:language>
-			</news:publication>
-			<news:publication_date>2023-09-01T00:00:00+02:00</news:publication_date>
-			<news:title>New Community Manager #1</news:title>
 		</news:news>
 	</url>
 </urlset>
