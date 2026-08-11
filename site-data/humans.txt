@@ -7,10 +7,11 @@
   SINEWAVE     - Founder & Lead Developer
   _VEN0M       - Frontend Developer
   Anuraen      - Graphic Designer
-  esmatty      - Content Writer
+  esmatty      - Lead Content Writer
   Shockwave    - Content Writer
   legocity2000 - Content Writer
   Pyogenics    - 3D Content Specialist
+  Adamantium   - 3D Content Specialist
   OPEN         - Sound Library Curator
   IAmEdWards   - Game Analyst
   antitank99   - Game Analyst
