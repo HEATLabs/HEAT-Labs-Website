@@ -638,12 +638,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/playground/game-servers</loc>
-		<lastmod>2026-08-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/playground/heat-labs-app</loc>
 		<lastmod>2026-08-11</lastmod>
 		<changefreq>weekly</changefreq>
