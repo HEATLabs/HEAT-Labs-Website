@@ -25,7 +25,7 @@
   three.js: https://threejs.org/
 
 /* SITE */
-  Last update: 2026/07/11
+  Last update: 2026/08/11
   Language: English
   Doctype: HTML5
   IDE: WebStorm
