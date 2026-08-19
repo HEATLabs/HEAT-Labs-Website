@@ -554,12 +554,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/maps/ballistic-range</loc>
-		<lastmod>2026-08-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/maps/blossom-crash</loc>
 		<lastmod>2026-08-11</lastmod>
 		<changefreq>weekly</changefreq>
@@ -579,12 +573,6 @@
 	</url>
 	<url>
 		<loc>https://heatlabs.net/maps/inferno</loc>
-		<lastmod>2026-08-11</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://heatlabs.net/maps/military-training</loc>
 		<lastmod>2026-08-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
