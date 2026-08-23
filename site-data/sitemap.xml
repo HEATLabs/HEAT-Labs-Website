@@ -188,6 +188,12 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
+		<loc>https://heatlabs.net/blog/dev-stream-questions-and-answers</loc>
+		<lastmod>2026-08-20</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
 		<loc>https://heatlabs.net/blog/are-we-approaching-the-launch</loc>
 		<lastmod>2026-08-11</lastmod>
 		<changefreq>weekly</changefreq>
