@@ -408,6 +408,9 @@
             <button class="stats-tab" data-tab="kill-confirmed" id="tabKillConfirmed">
               <i class="fas fa-skull"></i> Kill Confirmed
             </button>
+            <button class="stats-tab" data-tab="plant-defuse" id="tabPlantDefuse">
+              <i class="fas fa-bomb"></i> Plant & Defuse
+            </button>
           </div>
           <!-- Tab Content: Global Records -->
           <div id="tabContentGlobal" class="tab-content active">
@@ -734,6 +737,62 @@
                   </table>
                 </div>
               </div>
+              <!-- Plants Records -->
+              <div class="record-category-section">
+                <h4>
+                  <i class="fas fa-bomb" style="color: #e67e22;"></i> Most Plants
+                </h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalPlantsTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Plants</th>
+                        <th>Mode</th>
+                        <th>Type</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalPlantsTableBody">
+                      <tr>
+                        <td colspan="9" class="no-data">Loading...</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- Defuses Records -->
+              <div class="record-category-section">
+                <h4>
+                  <i class="fas fa-shield-halved" style="color: #2ecc71;"></i> Most Defuses
+                </h4>
+                <div class="table-wrapper">
+                  <table class="records-table" id="globalDefusesTable">
+                    <thead>
+                      <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Defuses</th>
+                        <th>Mode</th>
+                        <th>Type</th>
+                        <th>Vehicle</th>
+                        <th>Agent</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="globalDefusesTableBody">
+                      <tr>
+                        <td colspan="9" class="no-data">Loading...</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
           <!-- Tab Content: Conquest -->
@@ -811,6 +870,25 @@
               <div class="mode-last-updated"></div>
             </div>
             <div id="killConfirmedContent"></div>
+          </div>
+          <!-- Tab Content: Plant & Defuse -->
+          <div id="tabContentPlantDefuse" class="tab-content">
+            <div class="mode-stats-header">
+              <h2>
+                <i class="fas fa-bomb"></i> Plant & Defuse Records
+              </h2>
+              <p class="mode-stats-subtitle">Top performances in Plant & Defuse mode</p>
+              <!-- Button Row -->
+              <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
+                <button id="openGuidelinesBtn6" class="view-full-btn" style="background: #6c5ce7;">
+                  <i class="fas fa-book"></i> Submission Guidelines </button>
+                <button id="pveTogglePlantdefuse" class="pve-toggle-btn" data-tab="plant-defuse" style="background: #2ecc71;">
+                  <i class="fas fa-robot"></i> Include PvE: ON </button>
+              </div>
+              <!-- Last Updated will be inserted here by JavaScript -->
+              <div class="mode-last-updated"></div>
+            </div>
+            <div id="plantDefuseContent"></div>
           </div>
           <!-- Loading State -->
           <div id="loadingState" class="loading-state" style="display: none;">
