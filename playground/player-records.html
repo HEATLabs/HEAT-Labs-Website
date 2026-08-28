@@ -394,23 +394,17 @@
           <!-- Tabs Navigation -->
           <div class="stats-tabs-container">
             <button class="stats-tab active" data-tab="global" id="tabGlobal">
-              <i class="fas fa-globe"></i> Global Records
-            </button>
+              <i class="fas fa-globe"></i> Global Records </button>
             <button class="stats-tab" data-tab="conquest" id="tabConquest">
-              <i class="fas fa-flag"></i> Conquest
-            </button>
+              <i class="fas fa-flag"></i> Conquest </button>
             <button class="stats-tab" data-tab="control" id="tabControl">
-              <i class="fas fa-bullseye"></i> Control
-            </button>
+              <i class="fas fa-bullseye"></i> Control </button>
             <button class="stats-tab" data-tab="hardpoint" id="tabHardpoint">
-              <i class="fas fa-shield-halved"></i> Hardpoint
-            </button>
+              <i class="fas fa-shield-halved"></i> Hardpoint </button>
             <button class="stats-tab" data-tab="kill-confirmed" id="tabKillConfirmed">
-              <i class="fas fa-skull"></i> Kill Confirmed
-            </button>
+              <i class="fas fa-skull"></i> Kill Confirmed </button>
             <button class="stats-tab" data-tab="plant-defuse" id="tabPlantDefuse">
-              <i class="fas fa-bomb"></i> Plant & Defuse
-            </button>
+              <i class="fas fa-bomb"></i> Plant & Defuse </button>
           </div>
           <!-- Tab Content: Global Records -->
           <div id="tabContentGlobal" class="tab-content active">
@@ -422,11 +416,9 @@
                 <!-- Button Row -->
                 <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
                   <button id="openGuidelinesBtn" class="view-full-btn" style="background: #6c5ce7;">
-                    <i class="fas fa-book"></i> Submission Guidelines
-                  </button>
+                    <i class="fas fa-book"></i> Submission Guidelines </button>
                   <button id="pveToggleGlobal" class="pve-toggle-btn" data-tab="global" style="background: #2ecc71;">
-                    <i class="fas fa-robot"></i> Include PvE: ON
-                  </button>
+                    <i class="fas fa-robot"></i> Include PvE: ON </button>
                 </div>
                 <!-- Last Updated will be inserted here by JavaScript -->
                 <div class="global-last-updated"></div>
@@ -434,25 +426,29 @@
               <!-- Stats Grid -->
               <div class="global-stats-grid global-stats-grid-row1">
                 <div class="global-stat-card">
-                  <div class="global-stat-icon"><i class="fas fa-trophy"></i></div>
+                  <div class="global-stat-icon">
+                    <i class="fas fa-trophy"></i>
+                  </div>
                   <div class="global-stat-value" id="globalTotalRecords">0</div>
                   <div class="global-stat-label">Total Records</div>
                 </div>
                 <div class="global-stat-card">
-                  <div class="global-stat-icon"><i class="fas fa-users"></i></div>
+                  <div class="global-stat-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
                   <div class="global-stat-value" id="globalRecordHolders">0</div>
                   <div class="global-stat-label">Record Holders</div>
                 </div>
                 <div class="global-stat-card">
-                  <div class="global-stat-icon"><i class="fas fa-gamepad"></i></div>
+                  <div class="global-stat-icon">
+                    <i class="fas fa-gamepad"></i>
+                  </div>
                   <div class="global-stat-value" id="globalModesCount">0</div>
                   <div class="global-stat-label">Game Modes</div>
                 </div>
               </div>
-              <!-- Stats Grid -->
-              <div class="global-stats-grid global-stats-grid-row2">
-                <!-- Stat counters will be dynamically inserted here by JavaScript -->
-              </div>
+              <!-- Stats Grid Row 2 -->
+              <div class="global-stats-grid global-stats-grid-row2"></div>
             </div>
             <!-- Global Charts -->
             <div id="globalCharts" class="global-charts-section">
@@ -486,322 +482,68 @@
                 </div>
               </div>
             </div>
-            <!-- Global Records Tables -->
-            <div class="global-records-tables">
-              <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--text-primary);">Top Records by Category</h3>
-              <!-- Damage Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-bolt" style="color: var(--accent-color);"></i> Highest Damage</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalDamageTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Damage</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalDamageTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
+            <!-- Global Records Single Table with Dropdown -->
+            <div class="global-single-table-section">
+              <div class="table-header">
+                <h3>
+                  <i class="fas fa-trophy" style="color: var(--accent-color, #ff8300);"></i> Top 20 Records
+                </h3>
+                <div class="stat-dropdown-container">
+                  <label for="globalStatSelect">
+                    <i class="fas fa-chart-bar"></i> Select Stat: </label>
+                  <select id="globalStatSelect" class="stat-dropdown-select">
+                    <option value="damage_caused">Damage</option>
+                    <option value="destroyed">Kills</option>
+                    <option value="assists">Assists</option>
+                    <option value="XP">XP</option>
+                    <option value="captures">Captures</option>
+                    <option value="damage_blocked">Blocked</option>
+                    <option value="credits">Credits</option>
+                    <option value="intel">Intel</option>
+                    <option value="confirms">Confirms</option>
+                    <option value="denies">Denies</option>
+                    <option value="plants">Plants</option>
+                    <option value="defuses">Defuses</option>
+                  </select>
                 </div>
               </div>
-              <!-- Kills Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-skull" style="color: #e74c3c;"></i> Most Kills</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalKillsTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Kills</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalKillsTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Assists Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-handshake" style="color: #3498db;"></i> Most Assists</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalAssistsTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Assists</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalAssistsTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- XP Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-star" style="color: #f1c40f;"></i> Highest XP</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalXPTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>XP</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalXPTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Captures Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-flag-checkered" style="color: #2ecc71;"></i> Most Captures</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalCapturesTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Captures</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalCapturesTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Damage Blocked Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-shield" style="color: #9b59b6;"></i> Most Damage Blocked</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalBlockedTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Damage Blocked</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalBlockedTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Credits Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-coins" style="color: #f39c12;"></i> Most Credits</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalCreditsTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Credits</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalCreditsTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Confirms Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-check-double" style="color: #2ecc71;"></i> Most Confirms</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalConfirmsTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Confirms</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalConfirmsTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Denies Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-ban" style="color: #9b59b6;"></i> Most Denies</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalDeniesTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Denies</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalDeniesTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Intel Records -->
-              <div class="record-category-section">
-                <h4><i class="fas fa-microchip" style="color: #1abc9c;"></i> Most Intel</h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalIntelTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Intel</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalIntelTableBody">
-                      <tr><td colspan="9" class="no-data">Loading...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Plants Records -->
-              <div class="record-category-section">
-                <h4>
-                  <i class="fas fa-bomb" style="color: #e67e22;"></i> Most Plants
-                </h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalPlantsTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Plants</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalPlantsTableBody">
-                      <tr>
-                        <td colspan="9" class="no-data">Loading...</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- Defuses Records -->
-              <div class="record-category-section">
-                <h4>
-                  <i class="fas fa-shield-halved" style="color: #2ecc71;"></i> Most Defuses
-                </h4>
-                <div class="table-wrapper">
-                  <table class="records-table" id="globalDefusesTable">
-                    <thead>
-                      <tr>
-                        <th>Rank</th>
-                        <th>Player</th>
-                        <th>Defuses</th>
-                        <th>Mode</th>
-                        <th>Type</th>
-                        <th>Vehicle</th>
-                        <th>Agent</th>
-                        <th>Date</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody id="globalDefusesTableBody">
-                      <tr>
-                        <td colspan="9" class="no-data">Loading...</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+              <div class="table-wrapper">
+                <table class="records-table" id="globalSingleTable">
+                  <thead>
+                    <tr>
+                      <th>Rank</th>
+                      <th>Player</th>
+                      <th>Value</th>
+                      <th>Mode</th>
+                      <th>Type</th>
+                      <th>Vehicle</th>
+                      <th>Agent</th>
+                      <th>Date</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id="globalSingleTableBody">
+                    <tr>
+                      <td colspan="9" class="no-data">Loading...</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
           <!-- Tab Content: Conquest -->
           <div id="tabContentConquest" class="tab-content">
             <div class="mode-stats-header">
-              <h2><i class="fas fa-flag"></i> Conquest Records</h2>
+              <h2>
+                <i class="fas fa-flag"></i> Conquest Records
+              </h2>
               <p class="mode-stats-subtitle">Top performances in Conquest mode</p>
-              <!-- Button Row -->
               <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
                 <button id="openGuidelinesBtn2" class="view-full-btn" style="background: #6c5ce7;">
-                  <i class="fas fa-book"></i> Submission Guidelines
-                </button>
+                  <i class="fas fa-book"></i> Submission Guidelines </button>
                 <button id="pveToggleConquest" class="pve-toggle-btn" data-tab="conquest" style="background: #2ecc71;">
-                  <i class="fas fa-robot"></i> Include PvE: ON
-                </button>
+                  <i class="fas fa-robot"></i> Include PvE: ON </button>
               </div>
-              <!-- Last Updated will be inserted here by JavaScript -->
               <div class="mode-last-updated"></div>
             </div>
             <div id="conquestContent"></div>
@@ -809,18 +551,16 @@
           <!-- Tab Content: Control -->
           <div id="tabContentControl" class="tab-content">
             <div class="mode-stats-header">
-              <h2><i class="fas fa-bullseye"></i> Control Records</h2>
+              <h2>
+                <i class="fas fa-bullseye"></i> Control Records
+              </h2>
               <p class="mode-stats-subtitle">Top performances in Control mode</p>
-              <!-- Button Row -->
               <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
                 <button id="openGuidelinesBtn3" class="view-full-btn" style="background: #6c5ce7;">
-                  <i class="fas fa-book"></i> Submission Guidelines
-                </button>
+                  <i class="fas fa-book"></i> Submission Guidelines </button>
                 <button id="pveToggleControl" class="pve-toggle-btn" data-tab="control" style="background: #2ecc71;">
-                  <i class="fas fa-robot"></i> Include PvE: ON
-                </button>
+                  <i class="fas fa-robot"></i> Include PvE: ON </button>
               </div>
-              <!-- Last Updated will be inserted here by JavaScript -->
               <div class="mode-last-updated"></div>
             </div>
             <div id="controlContent"></div>
@@ -828,18 +568,16 @@
           <!-- Tab Content: Hardpoint -->
           <div id="tabContentHardpoint" class="tab-content">
             <div class="mode-stats-header">
-              <h2><i class="fas fa-shield-halved"></i> Hardpoint Records</h2>
+              <h2>
+                <i class="fas fa-shield-halved"></i> Hardpoint Records
+              </h2>
               <p class="mode-stats-subtitle">Top performances in Hardpoint mode</p>
-              <!-- Button Row -->
               <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
                 <button id="openGuidelinesBtn4" class="view-full-btn" style="background: #6c5ce7;">
-                  <i class="fas fa-book"></i> Submission Guidelines
-                </button>
+                  <i class="fas fa-book"></i> Submission Guidelines </button>
                 <button id="pveToggleHardpoint" class="pve-toggle-btn" data-tab="hardpoint" style="background: #2ecc71;">
-                  <i class="fas fa-robot"></i> Include PvE: ON
-                </button>
+                  <i class="fas fa-robot"></i> Include PvE: ON </button>
               </div>
-              <!-- Last Updated will be inserted here by JavaScript -->
               <div class="mode-last-updated"></div>
             </div>
             <div id="hardpointContent"></div>
@@ -847,18 +585,16 @@
           <!-- Tab Content: Kill Confirmed -->
           <div id="tabContentKillConfirmed" class="tab-content">
             <div class="mode-stats-header">
-              <h2><i class="fas fa-skull"></i> Kill Confirmed Records</h2>
+              <h2>
+                <i class="fas fa-skull"></i> Kill Confirmed Records
+              </h2>
               <p class="mode-stats-subtitle">Top performances in Kill Confirmed mode</p>
-              <!-- Button Row -->
               <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
                 <button id="openGuidelinesBtn5" class="view-full-btn" style="background: #6c5ce7;">
-                  <i class="fas fa-book"></i> Submission Guidelines
-                </button>
+                  <i class="fas fa-book"></i> Submission Guidelines </button>
                 <button id="pveToggleKillconfirmed" class="pve-toggle-btn" data-tab="kill-confirmed" style="background: #2ecc71;">
-                  <i class="fas fa-robot"></i> Include PvE: ON
-                </button>
+                  <i class="fas fa-robot"></i> Include PvE: ON </button>
               </div>
-              <!-- Last Updated will be inserted here by JavaScript -->
               <div class="mode-last-updated"></div>
             </div>
             <div id="killConfirmedContent"></div>
@@ -870,14 +606,12 @@
                 <i class="fas fa-bomb"></i> Plant & Defuse Records
               </h2>
               <p class="mode-stats-subtitle">Top performances in Plant & Defuse mode</p>
-              <!-- Button Row -->
               <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
                 <button id="openGuidelinesBtn6" class="view-full-btn" style="background: #6c5ce7;">
                   <i class="fas fa-book"></i> Submission Guidelines </button>
                 <button id="pveTogglePlantdefuse" class="pve-toggle-btn" data-tab="plant-defuse" style="background: #2ecc71;">
                   <i class="fas fa-robot"></i> Include PvE: ON </button>
               </div>
-              <!-- Last Updated will be inserted here by JavaScript -->
               <div class="mode-last-updated"></div>
             </div>
             <div id="plantDefuseContent"></div>
