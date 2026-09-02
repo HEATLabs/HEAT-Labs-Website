@@ -614,6 +614,12 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
+		<loc>https://heatlabs.net/maps/utopia</loc>
+		<lastmod>2026-08-11</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
 		<loc>https://heatlabs.net/maps/scarred-city</loc>
 		<lastmod>2026-08-11</lastmod>
 		<changefreq>weekly</changefreq>
