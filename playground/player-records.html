@@ -380,6 +380,19 @@
       <!-- Main Content -->
       <section id="main" class="section">
         <div class="container mx-auto px-4">
+          <div class="search-section-wrapper">
+            <div class="player-search-wrapper">
+              <div class="player-search-container">
+                <div class="player-search-input-wrapper">
+                  <input type="text" id="playerSearchInput" placeholder="Search for a player by name..." autocomplete="off" spellcheck="false">
+                  <button class="search-clear-btn" id="playerSearchClear" aria-label="Clear search">
+                    <i class="fas fa-times-circle"></i>
+                  </button>
+                </div>
+                <div class="player-search-results" id="playerSearchResults"></div>
+              </div>
+            </div>
+          </div>
           <!-- Tabs Navigation -->
           <div class="stats-tabs-container">
             <button class="stats-tab active" data-tab="global" id="tabGlobal">
