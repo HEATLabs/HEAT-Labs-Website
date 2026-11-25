@@ -638,12 +638,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://heatlabs.net/playground/configurator</loc>
-		<lastmod>2026-11-19</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://heatlabs.net/playground/player-records</loc>
 		<lastmod>2026-11-19</lastmod>
 		<changefreq>weekly</changefreq>
